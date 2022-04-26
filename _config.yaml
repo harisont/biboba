@@ -5,8 +5,6 @@ author:
 description: > 
   Arianna Masciolini's academic reading.
 
-header_pages: null
-
 remote_theme: jekyll/minima
 
 minima:
