@@ -1,5 +1,5 @@
 ---
-title: Second Language Acquisition/Andraspråksinlärning
+title: Second Language Acquisition / Andraspråksinlärning
 ---
 
 <head>
