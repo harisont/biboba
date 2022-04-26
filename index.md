@@ -3,10 +3,10 @@ title: Arianna Masciolini's academic reading
 ---
 
 ## Research
-- [Grammatical Error Correction](gec.html)
-- [Exercise generation](exgen.html)
-- [SyntaxFest](syntax_fest.html)
+- [Grammatical Error Correction](gec.md)
+- [Exercise generation](exgen.md)
+- [SyntaxFest](syntax_fest.md)
 
 ## Course work
-- [Second Language Acquisition/Andraspråksinlärning](sla.html)
-- [Argumentation mining](argmining.html)
+- [Second Language Acquisition/Andraspråksinlärning](sla.md)
+- [Argumentation mining](argmining.md)

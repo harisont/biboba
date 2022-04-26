@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+---
+title: Grammatical Error Correction
+---
+
 <head>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
-    <link rel="stylesheet" type="text/scss" href="_sass/minima/skins/dark.scss"/>
 </head>
+
 <body>
     <bibtex src="gec.bib"></bibtex>
     <div id="bibtex_display"></div>
