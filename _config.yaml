@@ -7,6 +7,9 @@ description: >
 
 remote_theme: jekyll/minima
 
+header_pages:
+  - nonexisting_page
+
 minima:
   skin: dark
   date_format: "%-d %B %Y"
