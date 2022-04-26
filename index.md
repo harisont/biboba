@@ -4,7 +4,7 @@ title: Arianna Masciolini's academic reading
 
 ## Research
 - [Grammatical Error Correction](gec.md)
-- [Exercise generation](exgen.md)
+- [Grammar Exercise Generation](geg.md)
 - [SyntaxFest](syntax_fest.md)
 
 ## Course work
