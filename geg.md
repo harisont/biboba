@@ -1,5 +1,6 @@
 ---
 title: Grammar Exercise Generation
+exclude: true
 ---
 
 <head>

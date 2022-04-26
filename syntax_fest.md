@@ -1,5 +1,6 @@
 ---
 title: Syntax Fest
+exclude: true
 ---
 
 <head>

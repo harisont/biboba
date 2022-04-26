@@ -1,5 +1,6 @@
 ---
 title: Argumentation mining
+exclude: true
 ---
 
 <head>
