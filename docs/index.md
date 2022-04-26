@@ -1,5 +1,5 @@
 ---
-title: Arianna Masciolini's academic stuff
+title: Arianna Masciolini's academic reading
 ---
 
 ## Research

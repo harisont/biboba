@@ -1,15 +1,9 @@
-title: Hdemica
+title: Hdemica - bibliographies
 author: 
   name: Arianna Masciolini
   email: arianna.masciolini@gu.se
 description: > 
-  Arianna Masciolini's academic stuff.
-
-header_pages:
-  - ec1032dd2e37350ba2f3633c4ec78485c047e055/research/research.md
-  - ec1032dd2e37350ba2f3633c4ec78485c047e055/courses/courses.md
-  - ec1032dd2e37350ba2f3633c4ec78485c047e055/depduties/depduties.md
-  - ec1032dd2e37350ba2f3633c4ec78485c047e055/planning/planning.md
+  Arianna Masciolini's academic reading.
 
 remote_theme: jekyll/minima
 
