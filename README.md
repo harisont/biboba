@@ -4,3 +4,4 @@ My [bibo](https://github.com/Nagasaki45/bibo) backup, i.e. my BibTeX files, and 
 
 ## TODO
 - [ ] switch to better citation style
+  - [ ] make tags visible
