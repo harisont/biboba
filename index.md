@@ -3,8 +3,7 @@ title: Arianna Masciolini's academic reading
 ---
 
 ## Research
-- [Grammatical Error Correction](gec.md)
-- [Grammar Exercise Generation](geg.md)
+- [Grammar-based CALL](gbc.md)
 - [SyntaxFest](syntax_fest.md)
 
 ## Course work
