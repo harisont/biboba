@@ -20,6 +20,6 @@ title: Grammatical Error Correction
 </head>
 
 <body>
-    <bibtex src="gec.bib"></bibtex>
+    <bibtex src="gbc.bib"></bibtex>
     <div id="bibtex_display"></div>
 </body>
