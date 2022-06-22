@@ -11,6 +11,7 @@ title: Grammatical Error Correction
 - `SBX` for Språkbanken Text work
 - `ICALL` for everything ICALL-related
 - `UD` for stuff where they use dependency parsing (not necessarily UD proper)
+- `exgen` for papers discussing exercise generation
 
 
 ## References
