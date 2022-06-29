@@ -12,7 +12,7 @@ title: Grammatical Error Correction
 - `ICALL` for everything ICALL-related
 - `UD` for stuff where they use dependency parsing (not necessarily UD proper)
 - `exgen` for papers discussing exercise generation
-
+- `GEC` for Grammatical Error Correction papers, regardless the methods
 
 ## References
 <head>
