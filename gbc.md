@@ -13,7 +13,8 @@ title: Grammatical Error Correction
 - `UD` for stuff where they use dependency parsing (not necessarily UD proper)
 - `exgen` for papers discussing exercise generation
 - `GEC` for Grammatical Error Correction papers, regardless the methods
-- `dialog` for papers Dialogue Systems usage
+- `dialog` for papers on DB-CALL and other conversational stuff
+- `CMC` for Computer-Mediated Communication
 
 ## References
 <head>
