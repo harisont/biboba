@@ -1,5 +1,5 @@
 ---
-title: PhD project - related articles
+title: PhD project-related articles
 ---
 
 ## Tags
@@ -25,15 +25,18 @@ title: PhD project - related articles
     <bibtex src="phd.bib"></bibtex>
 
     <div class="bibtex_template">
-            <span class="author"></span>,
-            <span class="title" style="font-weight: italic;"></span>
-            <span class="if booktitle">
-                ,<span class="booktitle"></span>
-            </span>
-            <span class="if journal">
-                ,<span class="journal"></span>
-            </span>
-            .<span class="year"></span>
+        <span class="author"></span>,
+        <span class="title" style="font-style: italic;"></span>
+        <span class="if booktitle">
+            , <span class="booktitle"></span>
+        </span>
+        <span class="if journal">
+            , <span class="journal"></span>
+        </span>
+            , <span class="year"></span>
+        <span class="if tags">
+                (<span class="tags" style="font-weight: bold;"></span>)
+        </span>    
     </div>
 
     <div id="bibtex_display"></div>
