@@ -23,5 +23,21 @@ title: Grammatical Error Correction
 
 <body>
     <bibtex src="gbc.bib"></bibtex>
+
+    <div class="bibtex_template">
+    <div class="if author" style="font-weight: bold;">
+        <span class="author"></span>
+        <span class="if year">
+            <span class="year"></span>, 
+        </span>
+        <span class="if url" style="margin-left: 20px">
+            <a class="url" style="color:black; font-size:10px">(view online)</a>
+        </span>
+  </div>
+  <div style="margin-left: 10px; margin-bottom:5px;">
+    <span class="title"></span>
+  </div>
+    </div>
+
     <div id="bibtex_display"></div>
 </body>
