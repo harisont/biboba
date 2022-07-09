@@ -37,8 +37,7 @@ title: PhD project-related articles
         <span class="if tags">
                 (<span class="tags" style="font-weight: bold;"></span>)
         </span>    
-        <br>
-    </div>
+    </div style="margin-bottom:5px;>
 
     <div id="bibtex_display"></div>
 </body>
