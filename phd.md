@@ -35,9 +35,8 @@ title: PhD project-related articles
         </span>
             <span class="year"></span>
         <span class="if tags">
-                (<span class="tags" style="font-weight: bold;"></span>)
+                (<span class="tags" style="font-weight: bold; margin-bottom:5px;"></span>)
         </span>
-        <span style="margin-bottom:5px;"></span>
     </div>
 
     <div id="bibtex_display"></div>
