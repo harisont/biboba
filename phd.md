@@ -1,5 +1,5 @@
 ---
-title: Grammatical Error Correction
+title: PhD project - related articles
 ---
 
 ## Tags
@@ -22,21 +22,18 @@ title: Grammatical Error Correction
 </head>
 
 <body>
-    <bibtex src="gbc.bib"></bibtex>
+    <bibtex src="phd.bib"></bibtex>
 
     <div class="bibtex_template">
-    <div class="if author" style="font-weight: bold;">
-        <span class="author"></span>
-        <span class="if year">
-            <span class="year"></span>, 
-        </span>
-        <span class="if url" style="margin-left: 20px">
-            <a class="url" style="color:black; font-size:10px">(view online)</a>
-        </span>
-  </div>
-  <div style="margin-left: 10px; margin-bottom:5px;">
-    <span class="title"></span>
-  </div>
+            <span class="author"></span>,
+            <span class="title" style="font-weight: italic;"></span>
+            <span class="if booktitle">
+                ,<span class="booktitle"></span>
+            </span>
+            <span class="if journal">
+                ,<span class="journal"></span>
+            </span>
+            .<span class="year"></span>
     </div>
 
     <div id="bibtex_display"></div>

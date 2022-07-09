@@ -3,7 +3,7 @@ title: Arianna Masciolini's academic reading
 ---
 
 ## Research
-- [Grammar-based CALL](gbc.md)
+- [Grammar-based CALL](phd.md)
 - [SyntaxFest](syntax_fest.md)
 
 ## Course work
