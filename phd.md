@@ -25,7 +25,7 @@ title: PhD project-related articles
     <bibtex src="phd.bib"></bibtex>
 
     <div class="bibtex_template">
-        <i>
+        <li>
             <span class="author"></span>,
             <span class="title" style="font-style: italic;"></span>,
             <span class="if booktitle">
@@ -38,7 +38,7 @@ title: PhD project-related articles
             <span class="if tags">
                 (<span class="tags" style="font-weight: bold;"></span>)
             </span>
-        </i>
+        </li>
     </div>
 
     <div id="bibtex_display"><ul></ul></div>
