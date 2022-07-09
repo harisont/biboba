@@ -2,9 +2,7 @@
 title: PhD project-related articles
 ---
 
-## Tags
-(Currently not shown in this webpage but available in the source `.bib` files)
- 
+## Tags 
 - `ML` for ML-based approaches, including papers on data augmentation
 - `Elena` for articles I received from Elena
 - `feedback` for articles on the effects of different types of feedback (both in ICALL and in other settings)
