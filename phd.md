@@ -13,6 +13,7 @@ title: PhD project-related articles
 - `GEC` for Grammatical Error Correction papers, regardless the methods
 - `dialog` for papers on DB-CALL and other conversational stuff
 - `CMC` for Computer-Mediated Communication
+- `AWE` for Automatic Writing Evaluation
 
 ## References
 <head>
