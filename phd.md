@@ -14,6 +14,7 @@ title: PhD project-related articles
 - `dialog` for papers on DB-CALL and other conversational stuff
 - `CMC` for Computer-Mediated Communication
 - `AWE` for Automatic Writing Evaluation
+- `sv` for Swedish-specific works
 
 ## References
 <head>
