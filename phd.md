@@ -11,9 +11,11 @@ title: PhD project-related articles
 - `UD` for stuff where they use dependency parsing (not necessarily UD proper)
 - `exgen` for papers discussing exercise generation
 - `GEC` for Grammatical Error Correction papers, regardless the methods
+- `GED` for Grammatical Error Detection papers, regardless the methods
 - `dialog` for papers on DB-CALL and other conversational stuff
 - `CMC` for Computer-Mediated Communication
 - `AWE` for Automatic Writing Evaluation
+- `sv` for Swedish-specific works
 
 ## References
 <head>
