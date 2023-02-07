@@ -3,19 +3,15 @@ title: PhD project-related articles
 ---
 
 ## Tags 
-- `ML` for ML-based approaches, including papers on data augmentation
-- `Elena` for articles I received from Elena
-- `feedback` for articles on the effects of different types of feedback (both in ICALL and in other settings)
-- `SBX` for Språkbanken Text work
-- `ICALL` for everything ICALL-related
-- `UD` for stuff where they use dependency parsing (not necessarily UD proper)
-- `exgen` for papers discussing exercise generation
-- `GEC` for Grammatical Error Correction papers, regardless the methods
-- `GED` for Grammatical Error Detection papers, regardless the methods
-- `dialog` for papers on DB-CALL and other conversational stuff
-- `CMC` for Computer-Mediated Communication
-- `AWE` for Automatic Writing Evaluation
-- `sv` for Swedish-specific works
+
+- langtags: `sv`, `it`
+- non-papers:
+  - `docs`
+  - `textbook`
+  - `thesis`
+- `data`: description of one or more datasets/corpora
+- `metric`: definition of some performance metric
+- `tool`: presentation of a tool I (might) use
 
 ## References
 <head>
