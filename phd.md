@@ -12,6 +12,7 @@ title: PhD project-related articles
 - `data`: description of one or more datasets/corpora
 - `metric`: definition of some performance metric
 - `tool`: presentation of a tool I (might) use
+- `survey`: systematic review of something
 
 ## References
 <head>
