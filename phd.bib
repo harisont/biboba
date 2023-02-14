@@ -56,8 +56,8 @@
   author = {Bryant, Christopher and Felice, Mariano and Briscoe, Edward},
   year = {2017},
   organization = {Association for Computational Linguistics},
-  tags = {to-read},
-  note = {Among many other thing, it describe how ERRANT is "dataset-agnostic".},
+  note = {Describes ERRANT, a grammatical ERRor ANnotation Toolkit to automatically extractand classify according to a "universal" error taxonomy from parallel L1-L2 texts (NB: this is probably the first taxonomy I should aim at reproducing!). While its main aim is to improve the evaluation of GEC systems, it is actually very related to choshen2020classifying and L2-UD extract, even in terms of methodology because it uses automatic morphosyntactic annotation of the parallel texts. However it is language (English)-specific and very much focused on single-token errors.},
+  readdate = {2023-02-14},
 }
 
 @inproceedings{coctaill,
@@ -102,7 +102,7 @@
   year = {2021},
   publisher = {Cambridge University Press},
   readdate = {2022-07-18},
-  tags={survey},
+  tags = {survey},
   note = {Short and sweet, very up-to-date overview of corrective feedback used in CALL.},
 }
 
@@ -273,8 +273,8 @@
   booktitle = {Proceedings of the Eighth Workshop on Treebanks and Linguistic Theories (TLT-8)},
   pages = {59--70},
   year = {2009},
-  tags = {to-read},
-  notes = {Much older paper on dependency treebanks as learner corpora.},
+  notes = {Much older (pre-UD) paper on dependency treebanks as learner corpora. Useful as a reference for the idea of using dependency parsers and CoNNL format.},
+  readdate = {2023-02-14},
 }
 
 @article{krivanek2013comparing,
@@ -285,7 +285,8 @@
   pages = {207},
   year = {2013},
   publisher = {IOS Press},
-  tags = {to-read},
+  note = {Too dated: uses an old data-driven parser and it is not UD-based.},
+  readdate = {2023-02-14},
 }
 
 @article{choshen2020classifying,
@@ -345,7 +346,7 @@
   year = {2015},
   organization = {Research-publishing. net Dublin},
   readdate = {2022-07-08},
-  tags={survey},
+  tags = {survey},
   note = {Not really an overview of DB-CALL, but useful for basic definitions of the various keywords.},
 }
 
@@ -662,22 +663,22 @@
   tags = {tool},
 }
 
-@inproceedings{felice2016automatic,
+@inproceedings{felice-l1l2alignment,
   title = {Automatic extraction of learner errors in ESL sentences using linguistically enhanced alignments},
   author = {Felice, Mariano and Bryant, Christopher and Briscoe, Ted},
   booktitle = {Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers},
   pages = {825--835},
   year = {2016},
-  tags = {to-read},
-  note = {On L1-L2 alignment.},
+  note = {Describes a rule-based, English-specific approach to L1-L2 alignment that would be interesting to evaluate against Concept Alignment, since it still performs quite poorly on multi-token errors.},
+  readdate = {2023-02-14},
 }
 
 @article{stanza,
-  title  =  {Stanza: A {P}ython natural language processing toolkit for many human languages},
-  author  =  {Qi, Peng and Zhang, Yuhao and Zhang, Yuhui and Bolton, Jason and Manning, Christopher D},
-  journal  =  {arXiv preprint arXiv:2003.07082},
-  year  =  {2020},
-  tags  =  {tool},
+  title = {Stanza: A {P}ython natural language processing toolkit for many human languages},
+  author = {Qi, Peng and Zhang, Yuhao and Zhang, Yuhui and Bolton, Jason and Manning, Christopher D},
+  journal = {arXiv preprint arXiv:2003.07082},
+  year = {2020},
+  tags = {tool},
 }
 
 @article{bryant2022grammatical,
@@ -699,17 +700,18 @@
 }
 
 @inproceedings{sets,
-  title = {Sets: Scalable and efficient tree search in dependency graphs},
+  title = {{SETS}: {S}calable and {E}fficient {T}ree {S}earch in dependency graphs},
   author = {Luotolahti, Juhani and Kanerva, Jenna and Pyysalo, Sampo and Ginter, Filip},
   booktitle = {Proceedings of the 2015 conference of the north american chapter of the association for computational linguistics: Demonstrations},
   pages = {51--55},
   year = {2015},
   tags = {tool},
   readdate = {2023-02-14},
+  note = {Describes a tree query language that should more (ordered dependencies) or less (no sequence patterns) be equivalent to gf-ud's, but more efficient. However, everything is unmaintained.},
 }
 
 @inproceedings{udapi,
-  title = {Udapi: Universal API for {U}niversal {D}ependencies},
+  title = {Udapi: Universal {API} for {U}niversal {D}ependencies},
   author = {Popel, Martin and {\v{Z}}abokrtsk{\`y}, Zden{\v{e}}k and Vojtek, Martin},
   booktitle = {Proceedings of the NoDaLiDa 2017 Workshop on Universal Dependencies (UDW 2017)},
   pages = {96--101},
