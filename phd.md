@@ -4,15 +4,10 @@ title: PhD project-related articles
 
 ## Tags 
 
-- langtags: `sv`, `it`
-- non-papers:
-  - `docs`
-  - `textbook`
-  - `thesis`
-- `data`: description of one or more datasets/corpora
-- `metric`: definition of some performance metric
-- `tool`: presentation of a tool I (might) use
-- `survey`: systematic review of something
+- `lang-LANGCODE`
+- `type-paper|thesis|docs|textbook`
+- `content-data|metric|tool|method|survey|study`
+- `to-read`
 
 ## References
 <head>
