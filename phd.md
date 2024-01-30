@@ -5,8 +5,8 @@ title: PhD project-related articles
 ## Tags 
 
 - `lang-LANGCODE`
-- `type-paper|thesis|docs|textbook`
-- `content-data|metric|tool|method|survey|study`
+- `type-paper|thesis|docs|book`
+- `content-data|metric|tool|method|survey|study|theory|position`
 - `to-read`
 
 ## References
