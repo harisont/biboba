@@ -6,7 +6,7 @@ title: PhD project-related articles
 
 - `lang-LANGCODE`
 - `type-paper|thesis|docs|book`
-- `content-data|metric|tool|method|survey|study|theory|position`
+- `content-data|metric|tool|method|survey|study|theory|position|task`
 - `to-read`
 
 ## References
