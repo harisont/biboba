@@ -222,7 +222,7 @@
   note = {Italian L1-L2 parallel UD treebank.},
 }
 
-@article{huang2018dependency,
+@article{parsers_unreliable_l2en,
   title = {Dependency parsing of learner {E}nglish},
   author = {Huang, Yan and Murakami, Akira and Alexopoulou, Theodora and Korhonen, Anna},
   journal = {International Journal of Corpus Linguistics},
@@ -236,7 +236,7 @@
   tags = {lang-en, type-paper, content-study},
 }
 
-@inproceedings{sakaguchi2017error,
+@inproceedings{error-repair-parse,
   title = {Error-repair dependency parsing for ungrammatical texts},
   author = {Sakaguchi, Keisuke and Post, Matt and Van Durme, Benjamin},
   booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
@@ -665,18 +665,6 @@
   note = {Newer, more comprehensive source for VALICO-UD},
 }
 
-@inproceedings{l1l2it_old,
-  title = {Towards an Italian learner treebank in universal dependencies},
-  author = {Di Nuovo, Elisa and Bosco, Cristina and Mazzei, Alessandro and Sanguinetti, Manuela},
-  booktitle = {6th Italian Conference on Computational Linguistics, CLiC-it 2019},
-  volume = {2481},
-  pages = {1--6},
-  year = {2019},
-  organization = {CEUR-WS},
-  tags = {lang-it, content-data, type-paper},
-  note = {First, shorter VALICO-UD paper (outdated)},
-}
-
 @inproceedings{nicholls2003cambridge,
   title = {The {C}ambridge {L}earner {C}orpus: Error coding and analysis for lexicography and {ELT}},
   author = {Nicholls, Diane},
@@ -951,7 +939,7 @@
   tags = {to-read},
 }
 
-@inproceedings{volodina2022reliability,
+@inproceedings{parsers_unreliable_l2sv,
   title = {Reliability of automatic linguistic annotation: native vs non-native texts},
   author = {Volodina, Elena and Alfter, David and Lindstr{\"o}m Tiedemann, Therese and Lauriala, Maisa Susanna and Piipponen, Daniela Helena},
   booktitle = {Selected papers from the CLARINAnnual Conference 2021},
@@ -1178,7 +1166,7 @@
   tags = {content-data, lang-sv, type-paper},
 }
 
-@inproceedings{van-der-goot-etal-2021-massive,
+@inproceedings{machamp,
   title = {Massive Choice, Ample Tasks ({M}a{C}h{A}mp): A Toolkit for Multi-task Learning in {NLP}},
   author = {van der Goot, Rob and {\"U}st{\"u}n, Ahmet and Ramponi, Alan and Sharaf, Ibrahim and Plank, Barbara},
   booktitle = {Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations},
@@ -1358,4 +1346,87 @@
   booktitle={Huminfra Conference},
   pages={95--109},
   year={2024}
+}
+
+@inbook{las-uas,
+   author = {Sandra Kübler and Ryan McDonald and Joakim Nivre},
+   doi = {10.1007/978-3-031-02131-2_6},
+   edition = {1st},
+   month = {12},
+   pages = {79-86},
+   publisher = {Springer Cham},
+   title = {Dependency Parsing},
+   url = {https://link.springer.com/10.1007/978-3-031-02131-2_6},
+   year = {2009},
+}
+
+@article{bert,
+  title={{BERT}: Pre-training of deep bidirectional transformers for language understanding},
+  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  journal={arXiv preprint arXiv:1810.04805},
+  year={2018}
+}
+
+@inproceedings{ewt,
+  year = {2014},
+  author = {Natalia Silveira and Timothy Dozat and Marie-Catherine de
+	  Marneffe and Samuel Bowman and Miriam Connor and John Bauer and
+	  Christopher D. Manning},
+  title = {A Gold Standard Dependency Corpus for {E}nglish},
+  booktitle = {Proceedings of the Ninth International Conference on Language
+    Resources and Evaluation (LREC-2014)},
+  tags = {lang-en, content-data, type-paper}
+
+}
+
+@inproceedings{isdt,
+  title={Less is more? {T}owards a reduced inventory of categories for training a parser for the {I}talian {S}tanford {D}ependencies},
+  author={Simi, Maria and Bosco, Cristina and Montemagni, Simonetta and others},
+  booktitle={Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)},
+  pages={83--90},
+  year={2014},
+  organization={European Language Resources Association (ELRA)},
+  tags = {lang-it, content-data, type-paper}
+}
+
+@inproceedings{sparv,
+  title={Sparv: Spr{\aa}kbanken’s corpus annotation pipeline infrastructure},
+  author={Borin, Lars and Forsberg, Markus and Hammarstedt, Martin and Ros{\'e}n, Dan and Sch{\"a}fer, Roland and Schumacher, Anne},
+  booktitle={The Sixth Swedish Language Technology Conference (SLTC), Ume{\aa} University},
+  pages={17--18},
+  year={2016}
+}
+
+@inproceedings{turbo-parser,
+    title = "Turning on the Turbo: Fast Third-Order Non-Projective Turbo Parsers",
+    author = "Martins, Andr{\'e}  and
+      Almeida, Miguel  and
+      Smith, Noah A.",
+    editor = "Schuetze, Hinrich  and
+      Fung, Pascale  and
+      Poesio, Massimo",
+    booktitle = "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = aug,
+    year = "2013",
+    address = "Sofia, Bulgaria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P13-2109",
+    pages = "617--622",
+}
+
+@inproceedings{fce,
+    title = "A New Dataset and Method for Automatically Grading {ESOL} Texts",
+    author = "Yannakoudakis, Helen  and
+      Briscoe, Ted  and
+      Medlock, Ben",
+    editor = "Lin, Dekang  and
+      Matsumoto, Yuji  and
+      Mihalcea, Rada",
+    booktitle = "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2011",
+    address = "Portland, Oregon, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P11-1019",
+    pages = "180--189",
 }
