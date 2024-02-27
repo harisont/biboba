@@ -7,6 +7,7 @@
   publisher = {Institutionen f{\"o}r svenska, G{\"o}teborgs Universitet},
   tags = {lang-sv, type-docs, content-data},
   note = {Exhaustive SweLL error taxonomy docs.},
+  url = {https://gupea.ub.gu.se/bitstream/handle/2077/69434/gupea_2077_69434_1.pdf}
 }
 
 @article{swell,
@@ -19,6 +20,7 @@
   publisher = {Link{\"o}ping University Electronic Press},
   tags = {lang-sv, type-paper, content-data},
   note = {SweLL corpus presentation.},
+  doi = {https://doi.org/10.3384/nejlt.2000-1533.19667}
 }
 
 @article{dalaj,
@@ -187,26 +189,49 @@
   tags = {to-read, type-paper, content-study}
 }
 
-@article{l1l2en,
-  title = {Universal {D}ependencies for learner {E}nglish},
-  author = {Berzak, Yevgeni and Kenney, Jessica and Spadine, Carolyn and Wang, Jing Xian and Lam, Lucia and Mori, Keiko Sophie and Garza, Sebastian and Katz, Boris},
-  journal = {arXiv preprint arXiv:1605.04278},
-  year = {2016},
-  tags = {lang-en, type-paper, content-data},
-  readdate = {2022-06-20},
-  note = {English L1-L2 parallel UD treebank (aka ESL/TLE)},
+@inproceedings{l1l2en,
+    title = "{U}niversal {D}ependencies for Learner {E}nglish",
+    author = "Berzak, Yevgeni  and
+      Kenney, Jessica  and
+      Spadine, Carolyn  and
+      Wang, Jing Xian  and
+      Lam, Lucia  and
+      Mori, Keiko Sophie  and
+      Garza, Sebastian  and
+      Katz, Boris",
+    editor = "Erk, Katrin  and
+      Smith, Noah A.",
+    booktitle = "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P16-1070",
+    doi = "10.18653/v1/P16-1070",
+    pages = "737--746",
+    tags = {lang-en, type-paper, content-data},
+    readdate = {2022-06-20},
+    note = {English L1-L2 parallel UD treebank (aka ESL/TLE)},
 }
 
 @inproceedings{l1l2ch,
-  title = {Towards {U}niversal {D}ependencies for learner {C}hinese},
-  author = {Lee, John SY and Leung, Herman and Li, Keying},
-  booktitle = {Proceedings of the NoDaLiDa 2017 Workshop on Universal Dependencies (UDW 2017)},
-  pages = {67--71},
-  address = {Gothenburg, Sweden},
-  year = {2017},
-  tags = {lang-ch, type-paper, content-data},
-  readdate = {2022-06-20},
-  note = {Chinese L1-L2 parallel UD treebank.},
+    title = "Towards {U}niversal {D}ependencies for Learner {C}hinese",
+    author = "Lee, John  and
+      Leung, Herman  and
+      Li, Keying",
+    editor = "de Marneffe, Marie-Catherine  and
+      Nivre, Joakim  and
+      Schuster, Sebastian",
+    booktitle = "Proceedings of the {N}o{D}a{L}i{D}a 2017 Workshop on Universal Dependencies ({UDW} 2017)",
+    month = may,
+    year = "2017",
+    address = "Gothenburg, Sweden",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W17-0408",
+    pages = "67--71",
+    tags = {lang-ch, type-paper, content-data},
+    readdate = {2022-06-20},
+    note = {Chinese L1-L2 parallel UD treebank.},
 }
 
 @inproceedings{l1l2it-old,
@@ -220,6 +245,7 @@
   tags = {lang-it, type-paper, content-data},
   readdate = {2022-06-20},
   note = {Italian L1-L2 parallel UD treebank.},
+  doi = {https://doi.org/10.4000/ijcol.1007}
 }
 
 @article{parsers_unreliable_l2en,
@@ -234,17 +260,28 @@
   readdate = {2022-06-24},
   note = {Study on the performance of standard dependency parsers on learner English.},
   tags = {lang-en, type-paper, content-study},
+  doi = {https://doi.org/10.1075/ijcl.16080.hua}
 }
 
 @inproceedings{error-repair-parse,
-  title = {Error-repair dependency parsing for ungrammatical texts},
-  author = {Sakaguchi, Keisuke and Post, Matt and Van Durme, Benjamin},
-  booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
-  pages = {189--195},
-  year = {2017},
-  readdate = {2022-06-21},
-  note = {Interesting error-repairing dependency parser, but the software is not accessible.},
-  tags = {lang-en, type-paper, content-method},
+    title = "Error-repair Dependency Parsing for Ungrammatical Texts",
+    author = "Sakaguchi, Keisuke  and
+      Post, Matt  and
+      Van Durme, Benjamin",
+    editor = "Barzilay, Regina  and
+      Kan, Min-Yen",
+    booktitle = "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P17-2030",
+    doi = "10.18653/v1/P17-2030",
+    pages = "189--195",
+    abstract = "We propose a new dependency parsing scheme which jointly parses a sentence and repairs grammatical errors by extending the non-directional transition-based formalism of Goldberg and Elhadad (2010) with three additional actions: SUBSTITUTE, DELETE, INSERT. Because these actions may cause an infinite loop in derivation, we also introduce simple constraints that ensure the parser termination. We evaluate our model with respect to dependency accuracy and grammaticality improvements for ungrammatical sentences, demonstrating the robustness and applicability of our scheme.",
+    readdate = {2022-06-21},
+    note = {Interesting error-repairing dependency parser, but the software is not accessible.},
+    tags = {lang-en, type-paper, content-method},
 }
 
 @inproceedings{l1l2treebanks,
@@ -644,13 +681,14 @@
   tags = {type-paper, content-data, lang-sv},
 }
 
-@book{corino2017italiano,
+@book{valico,
   title = {Italiano di stranieri. I corpora VALICO e VINCA},
   author = {Corino, Elisa and Marello, Carla and Colombo, Simona},
   volume = {6},
   year = {2017},
   publisher = {Guerra},
   tags = {lang-it, content-data, type-paper},
+  url = {https://hdl.handle.net/2318/1631397}
 }
 
 @article{l1l2it,
@@ -942,10 +980,11 @@
 @inproceedings{parsers_unreliable_l2sv,
   title = {Reliability of automatic linguistic annotation: native vs non-native texts},
   author = {Volodina, Elena and Alfter, David and Lindstr{\"o}m Tiedemann, Therese and Lauriala, Maisa Susanna and Piipponen, Daniela Helena},
-  booktitle = {Selected papers from the CLARINAnnual Conference 2021},
+  booktitle = {Selected papers from the CLARIN Annual Conference 2021},
   year = {2022},
   organization = {Link{\"o}ping University Electronic Press (LiU E-Press)},
   tags = {lang-sv, content-study, type-paper},
+  url = {https://doi.org/10.3384/ecp18914}
 }
 
 @inproceedings{l2-ud-match,
@@ -1167,7 +1206,7 @@
 }
 
 @inproceedings{machamp,
-  title = {Massive Choice, Ample Tasks ({M}a{C}h{A}mp): A Toolkit for Multi-task Learning in {NLP}},
+  title = {{M}assive {C}hoice, {A}mple Tasks ({M}a{C}h{A}mp): A Toolkit for Multi-task Learning in {NLP}},
   author = {van der Goot, Rob and {\"U}st{\"u}n, Ahmet and Ramponi, Alan and Sharaf, Ibrahim and Plank, Barbara},
   booktitle = {Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations},
   month = {apr},
@@ -1349,44 +1388,92 @@
 }
 
 @inbook{las-uas,
-   author = {Sandra Kübler and Ryan McDonald and Joakim Nivre},
-   doi = {10.1007/978-3-031-02131-2_6},
-   edition = {1st},
-   month = {12},
-   pages = {79-86},
-   publisher = {Springer Cham},
-   title = {Dependency Parsing},
-   url = {https://link.springer.com/10.1007/978-3-031-02131-2_6},
-   year = {2009},
+author="K{\"u}bler, Sandra
+and McDonald, Ryan
+and Nivre, Joakim",
+title="Dependency Parsing",
+chapter="6",
+year="2009",
+publisher="Springer International Publishing",
+address="Cham",
+pages="79--86",
+abstract="In this chapter, we will consider the practical side of dependency parsing. First, we will discuss different evaluation metrics.Then we will discuss a suggestion for using dependency representations to compare parsers based on different grammar formalisms, and we will discuss how constituent treebanks can be converted into a dependency representation. This is an important conversion since for many languages, only constituent-based treebanks are available.We will also have a quick look at the shared tasks on dependency parsing of the Conference on Computational Natural Language Learning (CoNLL) because they provide many valuable resources.",
+isbn="978-3-031-02131-2",
+doi="10.1007/978-3-031-02131-2_6",
+url="https://doi.org/10.1007/978-3-031-02131-2_6"
 }
 
 @article{bert,
-  title={{BERT}: Pre-training of deep bidirectional transformers for language understanding},
-  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
-  journal={arXiv preprint arXiv:1810.04805},
-  year={2018}
+  author    = {Jacob Devlin and
+               Ming{-}Wei Chang and
+               Kenton Lee and
+               Kristina Toutanova},
+  title     = {{BERT:} Pre-training of Deep Bidirectional Transformers for Language
+               Understanding},
+  journal   = {CoRR},
+  volume    = {abs/1810.04805},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1810.04805},
+  archivePrefix = {arXiv},
+  eprint    = {1810.04805},
+  timestamp = {Tue, 30 Oct 2018 20:39:56 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1810-04805.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
 @inproceedings{ewt,
-  year = {2014},
-  author = {Natalia Silveira and Timothy Dozat and Marie-Catherine de
-	  Marneffe and Samuel Bowman and Miriam Connor and John Bauer and
-	  Christopher D. Manning},
-  title = {A Gold Standard Dependency Corpus for {E}nglish},
-  booktitle = {Proceedings of the Ninth International Conference on Language
-    Resources and Evaluation (LREC-2014)},
-  tags = {lang-en, content-data, type-paper}
-
+    title = "A Gold Standard Dependency Corpus for {E}nglish",
+    author = "Silveira, Natalia  and
+      Dozat, Timothy  and
+      de Marneffe, Marie-Catherine  and
+      Bowman, Samuel  and
+      Connor, Miriam  and
+      Bauer, John  and
+      Manning, Chris",
+    editor = "Calzolari, Nicoletta  and
+      Choukri, Khalid  and
+      Declerck, Thierry  and
+      Loftsson, Hrafn  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Ninth International Conference on Language Resources and Evaluation ({LREC}'14)",
+    month = may,
+    year = "2014",
+    address = "Reykjavik, Iceland",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "http://www.lrec-conf.org/proceedings/lrec2014/pdf/1089_Paper.pdf",
+    pages = "2897--2904",
+    abstract = "We present a gold standard annotation of syntactic dependencies in the English Web Treebank corpus using the Stanford Dependencies formalism. This resource addresses the lack of a gold standard dependency treebank for English, as well as the limited availability of gold standard syntactic annotations for English informal text genres. We also present experiments on the use of this resource, both for training dependency parsers and for evaluating the quality of different versions of the Stanford Parser, which includes a converter tool to produce dependency annotation from constituency trees. We show that training a dependency parser on a mix of newswire and web data leads to better performance on that type of data without hurting performance on newswire text, and therefore gold standard annotations for non-canonical text can be a valuable resource for parsing. Furthermore, the systematic annotation effort has informed both the SD formalism and its implementation in the Stanford Parser{'}s dependency converter. In response to the challenges encountered by annotators in the EWT corpus, the formalism has been revised and extended, and the converter has been improved.",
+    tags = {lang-en, content-data, type-paper}
 }
 
+
 @inproceedings{isdt,
-  title={Less is more? {T}owards a reduced inventory of categories for training a parser for the {I}talian {S}tanford {D}ependencies},
-  author={Simi, Maria and Bosco, Cristina and Montemagni, Simonetta and others},
-  booktitle={Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)},
-  pages={83--90},
-  year={2014},
-  organization={European Language Resources Association (ELRA)},
-  tags = {lang-it, content-data, type-paper}
+    title = "Less is More? Towards a Reduced Inventory of Categories for Training a Parser for the {I}talian {S}tanford Dependencies",
+    author = "Simi, Maria  and
+      Bosco, Cristina  and
+      Montemagni, Simonetta",
+    editor = "Calzolari, Nicoletta  and
+      Choukri, Khalid  and
+      Declerck, Thierry  and
+      Loftsson, Hrafn  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Ninth International Conference on Language Resources and Evaluation ({LREC}'14)",
+    month = may,
+    year = "2014",
+    address = "Reykjavik, Iceland",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "http://www.lrec-conf.org/proceedings/lrec2014/pdf/818_Paper.pdf",
+    pages = "83--90",
+    abstract = "Stanford Dependencies (SD) represent nowadays a de facto standard as far as dependency annotation is concerned. The goal of this paper is to explore pros and cons of different strategies for generating SD annotated Italian texts to enrich the existing Italian Stanford Dependency Treebank (ISDT). This is done by comparing the performance of a statistical parser (DeSR) trained on a simpler resource (the augmented version of the Merged Italian Dependency Treebank or MIDT+) and whose output was automatically converted to SD, with the results of the parser directly trained on ISDT. Experiments carried out to test reliability and effectiveness of the two strategies show that the performance of a parser trained on the reduced dependencies repertoire, whose output can be easily converted to SD, is slightly higher than the performance of a parser directly trained on ISDT. A non-negligible advantage of the first strategy for generating SD annotated texts is that semi-automatic extensions of the training resource are more easily and consistently carried out with respect to a reduced dependency tag set. Preliminary experiments carried out for generating the collapsed and propagated SD representation are also reported.",
+    tags = {lang-it, content-data, type-paper}
 }
 
 @inproceedings{sparv,
@@ -1394,11 +1481,13 @@
   author={Borin, Lars and Forsberg, Markus and Hammarstedt, Martin and Ros{\'e}n, Dan and Sch{\"a}fer, Roland and Schumacher, Anne},
   booktitle={The Sixth Swedish Language Technology Conference (SLTC), Ume{\aa} University},
   pages={17--18},
-  year={2016}
+  year={2016},
+  url={https://people.cs.umu.se/johanna/sltc2016/abstracts/SLTC_2016_paper_31.pdf},
+  tags={lang-sv, content-tool, type-paper}
 }
 
 @inproceedings{turbo-parser,
-    title = "Turning on the Turbo: Fast Third-Order Non-Projective Turbo Parsers",
+    title = "Turning on the Turbo: Fast Third-Order Non-Projective {T}urbo Parsers",
     author = "Martins, Andr{\'e}  and
       Almeida, Miguel  and
       Smith, Noah A.",
@@ -1429,4 +1518,12 @@
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/P11-1019",
     pages = "180--189",
+}
+
+@book{talbanken,
+title = "Talbankens skriftspr{\aa}kskonkordans",
+author = "Jan Einarsson",
+year = "1976",
+language = "svenska",
+publisher = "Institutionen f{\"o}r nordiska spr{\aa}k, Lunds universitet",
 }
