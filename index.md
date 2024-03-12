@@ -9,3 +9,4 @@ title: Arianna Masciolini's academic reading
 ## Course work
 - [Second Language Acquisition/Andraspråksinlärning](sla.md)
 - [Argumentation mining](argmining.md)
+- [GFSS23](gfss.md)
