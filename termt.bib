@@ -1,0 +1,104 @@
+@inproceedings{sabo-etal-2024-boosting,
+  title = {Boosting Machine Translation with {AI}-powered terminology features},
+  author = {Sabo, Marek and Klein, Judith and Bernardinello, Giorgio},
+  editor = {Scarton, Carolina and Prescott, Charlotte and Bayliss, Chris and Oakley, Chris and Wright, Joanna and Wrigley, Stuart and Song, Xingyi and Gow-Smith, Edward and Forcada, Mikel and Moniz, Helena},
+  booktitle = {Proceedings of the 25th Annual Conference of the European Association for Machine Translation (Volume 2)},
+  month = {jun},
+  year = {2024},
+  address = {Sheffield, UK},
+  publisher = {European Association for Machine Translation (EAMT)},
+  url = {https://aclanthology.org/2024.eamt-2.13/},
+  pages = {25--26},
+  abstract = {Artificial intelligence (AI) is quickly becoming an exciting new technology for the translation industry in form of large language models (LLMs). AI-based functionality could be used to improve the output of neural machine translation (NMT). One main issue that impacts MT quality and reliability is incorrect terminology. This is why STAR is making AI-powered terminology control a priority for its translation products because of the significant gains to be made - greatly improving the quality of MT output, reducing post editing (PE) costs and efforts, and thereby boosting overall translation productivity.},
+}
+
+@inproceedings{dougal-lonsdale-2020-improving,
+    title = "Improving {NMT} Quality Using Terminology Injection",
+    author = "Dougal, Duane K.  and
+      Lonsdale, Deryle",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.593/",
+    pages = "4820--4827",
+    language = "eng",
+    ISBN = "979-10-95546-34-4",
+    abstract = "Many organizations use domain- or organization-specific words and phrases. This paper explores the use of vetted terminology as an input to neural machine translation (NMT) for improved results: ensuring that the translation of individual terms is consistent with an approved multilingual terminology collection. We discuss, implement, and evaluate a method for injecting terminology and for evaluating terminology injection. Our use of the long short-term memory (LSTM) attention mechanism prevalent in state-of-the-art NMT systems involves attention vectors for correctly identifying semantic entities and aligning the tokens that represent them, both in the source and the target languages. Appropriate terminology is then injected into matching alignments during decoding. We also introduce a new translation metric more sensitive to approved terminological content in MT output."
+}
+
+@inproceedings{bogoychev-chen-2023-terminology,
+    title = "Terminology-Aware Translation with Constrained Decoding and Large Language Model Prompting",
+    author = "Bogoychev, Nikolay  and
+      Chen, Pinzhen",
+    editor = "Koehn, Philipp  and
+      Haddow, Barry  and
+      Kocmi, Tom  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Eighth Conference on Machine Translation",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wmt-1.80/",
+    doi = "10.18653/v1/2023.wmt-1.80",
+    pages = "890--896",
+    abstract = "Terminology correctness is important in the downstream application of machine translation, and a prevalent way to ensure this is to inject terminology constraints into a translation system. In our submission to the WMT 2023 terminology translation task, we adopt a translate-then-refine approach which can be domain-independent and requires minimal manual efforts. We annotate random source words with pseudo-terminology translations obtained from word alignment to first train a terminology-aware model. Further, we explore two post-processing methods. First, we use an alignment process to discover whether a terminology constraint has been violated, and if so, we re-decode with the violating word negatively constrained. Alternatively, we leverage a large language model to refine a hypothesis by providing it with terminology constraints. Results show that our terminology-aware model learns to incorporate terminologies effectively, and the large language model refinement process can further improve terminology recall."
+}
+
+@inproceedings{michon-etal-2020-integrating,
+    title = "Integrating Domain Terminology into Neural Machine Translation",
+    author = "Michon, Elise  and
+      Crego, Josep  and
+      Senellart, Jean",
+    editor = "Scott, Donia  and
+      Bel, Nuria  and
+      Zong, Chengqing",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2020.coling-main.348/",
+    doi = "10.18653/v1/2020.coling-main.348",
+    pages = "3925--3937",
+    abstract = "This paper extends existing work on terminology integration into Neural Machine Translation, a common industrial practice to dynamically adapt translation to a specific domain. Our method, based on the use of placeholders complemented with morphosyntactic annotation, efficiently taps into the ability of the neural network to deal with symbolic knowledge to surpass the surface generalization shown by alternative techniques. We compare our approach to state-of-the-art systems and benchmark them through a well-defined evaluation framework, focusing on actual application of terminology and not just on the overall performance. Results indicate the suitability of our method in the use-case where terminology is used in a system trained on generic data only."
+}
+
+@inproceedings{semenov-etal-2023-findings,
+    title = "Findings of the {WMT} 2023 Shared Task on Machine Translation with Terminologies",
+    author = "Semenov, Kirill  and
+      Zouhar, Vil{\'e}m  and
+      Kocmi, Tom  and
+      Zhang, Dongdong  and
+      Zhou, Wangchunshu  and
+      Jiang, Yuchen Eleanor",
+    editor = "Koehn, Philipp  and
+      Haddow, Barry  and
+      Kocmi, Tom  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Eighth Conference on Machine Translation",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wmt-1.54/",
+    doi = "10.18653/v1/2023.wmt-1.54",
+    pages = "663--671",
+    abstract = "The WMT 2023 Terminology Shared Task investigates progress in machine translation of texts with specialized vocabulary. The participants were given the source text and segment-level terminology dictionaries for three language pairs: Chinese{\textrightarrow}English, English{\textrightarrow}Czech, and German{\textrightarrow}English. We evaluate 21 submissions from 7 teams on two main criteria: general translation quality and the effectiveness of translating specialized terminology. Systems took varied approaches {---} incorporating terminology at inference time or weakly supervised training that uses terminology access. While incorporating terminology dictionaries leads to improvement in the translation quality, incorporating an equal amount of information from the reference leads to similar results. This challenges the position of terminologies being the crux of meaning in translation, it can also be explained by inadequate metrics which are not terminology-centric."
+}
