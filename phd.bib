@@ -329,7 +329,7 @@
   tags      = {type-paper, content-study}
 }
 
-@inproceedings{choshen2020classifying,
+@inproceedings{sercl,
   title     = {Classifying Syntactic Errors in Learner Language},
   author    = {Choshen, Leshem and Nikolaev, Dmitry and Berzak, Yevgeni and Abend, Omri},
   year      = {2020},
@@ -1644,7 +1644,26 @@
   tags      = {lang-ko, to-read, type-paper, content-study}
 }
 
-@inproceedings{tercon-dobrovoljc-2025-comparatree,
+@inproceedings{stark,
+  title     = {{STARK}: A Toolkit for Dependency (Sub)Tree Extraction and Analysis},
+  author    = {Krsnik, Luka  and
+               Dobrovoljc, Kaja},
+  editor    = {Jablotschkin, Sarah  and
+               K{\"u}bler, Sandra  and
+               Zinsmeister, Heike},
+  booktitle = {Proceedings of the 23rd International Workshop on Treebanks and Linguistic Theories (TLT, SyntaxFest 2025)},
+  month     = aug,
+  year      = {2025},
+  address   = {Ljubljana, Slovenia},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2025.tlt-1.5/},
+  pages     = {44--51},
+  isbn      = {979-8-89176-291-6},
+  abstract  = {We present STARK, a lightweight and flexible Python toolkit for extracting and analyzing syntactic (sub)trees from dependency-parsed corpora. By systematically slicing each sentence into interpretable syntactic units based on configurable parameters, STARK enables bottom-up, data-driven exploration of syntactic patterns at multiple levels of abstraction{---}from fully lexicalized constructions to general structural templates. It supports any CoNLL-U-formatted corpus and is available as a command-line tool, Python library, and interactive online demo, ensuring seamless integration into both exploratory and large-scale corpus workflows. We illustrate its functionality through case studies in noun phrase analysis, multiword expression identification, and syntactic variation across corpora, demonstrating its utility for a wide range of corpus-driven syntactic investigations.},
+  tags      = {to-read, type-paper, content-tool}
+}
+
+@inproceedings{comparatree,
   title     = {{C}ompara{T}ree: A Multi-Level Comparative Treebank Analysis Tool},
   author    = {Ter{\v{c}}on, Luka and Dobrovoljc, Kaja},
   editor    = {Jablotschkin, Sarah and K{\"u}bler, Sandra and Zinsmeister, Heike},
@@ -1849,4 +1868,79 @@
   title     = {MultiGEC},
   publisher = {Språkbanken Text},
   year      = {2025}
+}
+
+@inproceedings{sogaard-2022-ban,
+  title     = {Should We Ban {E}nglish {NLP} for a Year?},
+  author    = {S{\o}gaard, Anders},
+  editor    = {Goldberg, Yoav and Kozareva, Zornitsa and Zhang, Yue},
+  booktitle = {Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
+  month     = {dec},
+  year      = {2022},
+  address   = {Abu Dhabi, United Arab Emirates},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2022.emnlp-main.351/},
+  doi       = {10.18653/v1/2022.emnlp-main.351},
+  pages     = {5254--5260},
+  abstract  = {Around two thirds of NLP research at top venues is devoted exclusively to developing technology for speakers of English, most speech data comes from young urban speakers, and most texts used to train language models come from male writers. These biases feed into consumer technologies to widen existing inequality gaps, not only within, but also across, societies. Many have argued that it is almost impossible to mitigate inequality amplification. I argue that, on the contrary, it is quite simple to do so, and that counter-measures would have little-to-no negative impact, except for, perhaps, in the very short term.},
+  tags      = {type-paper}
+}
+
+@inproceedings{multierrant,
+  title     = {Multilingual Grammatical Error Annotation: Combining Language-Agnostic Framework with Language-Specific Flexibility},
+  author    = {Qiu, Mengyang  and
+               Nguyen, Tran Minh  and
+               Huang, Zihao  and
+               Li, Zelong  and
+               Gu, Yang  and
+               Gao, Qingyu  and
+               Liu, Siliang  and
+               Park, Jungyeul},
+  editor    = {Kochmar, Ekaterina  and
+               Alhafni, Bashar  and
+               Bexte, Marie  and
+               Burstein, Jill  and
+               Horbach, Andrea  and
+               Laarmann-Quante, Ronja  and
+               Tack, Ana{\"i}s  and
+               Yaneva, Victoria  and
+               Yuan, Zheng},
+  booktitle = {Proceedings of the 20th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2025)},
+  month     = jul,
+  year      = {2025},
+  address   = {Vienna, Austria},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2025.bea-1.15/},
+  doi       = {10.18653/v1/2025.bea-1.15},
+  pages     = {202--212},
+  isbn      = {979-8-89176-270-1},
+  abstract  = {Grammatical Error Correction (GEC) relies on accurate error annotation and evaluation, yet existing frameworks, such as errant, face limitations when extended to typologically diverse languages. In this paper, we introduce a standardized, modular framework for multilingual grammatical error annotation. Our approach combines a language-agnostic foundation with structured language-specific extensions, enabling both consistency and flexibility across languages. We reimplement errant using stanza to support broader multilingual coverage, and demonstrate the framework{'}s adaptability through applications to English, German, Czech, Korean, and Chinese, ranging from general-purpose annotation to more customized linguistic refinements. This work supports scalable and interpretable GEC annotation across languages and promotes more consistent evaluation in multilingual settings. The complete codebase and annotation tools can be accessed at https://github.com/open-writing-evaluation/jp{\_}errant{\_}bea.},
+  tags      = {type-paper, content-theory}
+}
+
+@inproceedings{ud4l2ch-study,
+  title     = {{L}1-{L}2 Parallel Treebank of Learner {C}hinese: Overused and Underused Syntactic Structures},
+  author    = {Li, Keying  and
+               Lee, John},
+  editor    = {Calzolari, Nicoletta  and
+               Choukri, Khalid  and
+               Cieri, Christopher  and
+               Declerck, Thierry  and
+               Goggi, Sara  and
+               Hasida, Koiti  and
+               Isahara, Hitoshi  and
+               Maegaard, Bente  and
+               Mariani, Joseph  and
+               Mazo, H{\'e}l{\`e}ne  and
+               Moreno, Asuncion  and
+               Odijk, Jan  and
+               Piperidis, Stelios  and
+               Tokunaga, Takenobu},
+  booktitle = {Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018)},
+  month     = may,
+  year      = {2018},
+  address   = {Miyazaki, Japan},
+  publisher = {European Language Resources Association (ELRA)},
+  url       = {https://aclanthology.org/L18-1647/},
+  tags      = {type-paper, content-study, lang-ch, to-read}
 }
